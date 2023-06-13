@@ -112,5 +112,6 @@ text_directory変数とcsv_directory変数を適切なディレクトリパス�
 
 
 # 参考文献
-https://prompt.quel.jp/　\\
+https://prompt.quel.jp/
+
 https://qiita.com/Isaka-code/items/4cc691ea5664212c3d27
