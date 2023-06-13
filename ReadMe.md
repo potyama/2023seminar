@@ -1,4 +1,15 @@
-# 0から生成する場合
+# ChatGPTを使った生成例
+ChatGPTを用いてソースコードを生成やリファクタリングを行わせることができます。
+以下に、例や参考文献を載せていますので、参考にしてみてください。
+
+> 注意
+> 
+> 間違った説明やソースコードを提示する場合があります。
+> 時には、PCに対し重大なエラーを発生させる可能性もあります。
+> 全てを鵜呑みにせず、あくまで参考情報として使用することをおすすめします。
+
+
+## 0からソースコードを生成する場合
 ```text
 txtファイルをcsvファイルに変換するプログラムを書いてください。
 ただし、空白はカンマ区切りにしてください
@@ -33,7 +44,7 @@ with open(csv_file, 'w', newline='') as f:
 上記のプログラムを実行すると、指定したinput.txtファイルからデータを読み取り、指定したoutput.csvファイルにデータを書き込みます。ヘッダー行はプログラム内で設定し、各行のデータはタブ文字で分割され、それぞれの列に対応する値がcsvファイルに書き込まれます。
 ```
 
-# 1から生成する場合
+## 機能を追加する場合
 ```text
 ヘッダーをDuration,Service,Source bytes,Destination bytes,Count,Same_srv_rate,Serror_rate,Srv_serror_rate,Dst_host_count,Dst_host_srv_count,Dst_host_same_src_port_rate,Dst_host_serror_rate,Dst_host_srv_serror_rate,Flag,IDS_detection,Malware_detection,Ashula_detection,Label,Source_IP_Address,Source_Port_Number,Destination_IP_Address,Destination_Port_Number,Start_Time,Protocol
 に変更してください
@@ -100,3 +111,8 @@ for text_file in text_files:
 
 text_directory変数とcsv_directory変数を適切なディレクトリパスに変更して使用してください。また、CSVファイルの出力先も適切なパスに変更することをお忘れなく。
 ```
+
+
+# 参考文献
+https://prompt.quel.jp/
+https://qiita.com/Isaka-code/items/4cc691ea5664212c3d27
