@@ -1,1 +1,3 @@
 ここにKyotoDataのtxtファイルを入れてください
+
+例として，KyotoDataの20150101.txtを入れています．
